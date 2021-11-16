@@ -1,0 +1,9 @@
+read (n);
+factorial := 1;
+i := 1;
+while i <= n do {
+ factorial := factorial * i;
+ i := i + 1
+};
+result := factorial;
+write (result)
